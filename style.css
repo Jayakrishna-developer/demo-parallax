@@ -1,0 +1,398 @@
+#brands {
+    overflow-x: hidden;
+}
+/* General reset and styling */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    /* Prevent horizontal scrolling */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Parallax section */
+.parallax {
+    background-image: url('./images/64f5c691b38a7ab6174867a8_Rectangle\ \(51\).svg');
+    height: 750px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Scrolling offer text */
+.offer {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 60px;
+}
+
+.door {
+    padding-top: 100px;
+}
+
+.content1 {
+    margin-left: 60%;
+    margin-top: -20%;
+    max-width: 40%;
+    /* Ensure it doesn't exceed the viewport width */
+}
+
+.content1 h2 {
+    font-weight: 800;
+    font-size: 44px;
+    color: rgb(240, 213, 171);
+}
+
+.content1 p {
+    font-size: 24px;
+    color: white;
+}
+
+.offer p {
+    display: inline-block;
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+    animation: scroll-left 20s linear infinite;
+    color: white;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.doorr {
+    background-attachment: fixed;
+    background-image: url(./images/fancy-boot-house-khagaria-shoe-dealers-3j8tg2pftu.avif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.content2 {
+    background-color: rgba(9, 9, 9, 0.695);
+    color: white;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 24px;
+    width: 700px;
+    height: 300px;
+    max-width: 100%;
+    /* Ensure it doesn't exceed the viewport width */
+}
+
+.door2 {
+    background-attachment: fixed;
+    background-image: url(./images/e9b4fbf400544ad7a423fd46bfd9860e.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.door2 h1{
+    color: beige;
+    text-align: center;
+    padding-top: 40px;
+    text-shadow: 2px 4px 8px black;
+    font-weight: 600;
+}
+.door2 .row {
+    margin-top: 100px;
+    max-width: 100%;
+    /* Ensure cards don't exceed the viewport width */
+}
+
+
+
+.img {
+    background-image: url(./images/ll1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+   background-repeat: no-repeat;
+    height: 800px;
+    background-position: 600px;
+   
+   
+}
+.img h1{
+    color: white;
+    padding-left: 10%;
+    padding-top: 3%;
+    font-weight: 500;
+    font-size: 44px;
+    text-shadow: 2px 4px 6px black;
+}
+.img p{
+    padding-left: 10%;
+    font-size: 44px;
+    color:white;
+    text-shadow: 2px 4px 6px black;
+    
+}
+.img button{
+        margin-left: 10%;
+}
+
+
+/* Overlay text styling */
+.overlay {
+  position: absolute ;
+left: 4%;
+top:2600px;
+    color: white;
+    z-index: 000;
+
+}
+
+.overlay h2 {
+ color: rgb(242, 191, 152);
+    font-size: 44px;
+    text-shadow: 2px 4px 6px black;
+}
+
+.overlay p {
+    color: rgb(255, 254, 254);
+    margin: 0;
+    font-size: 34px;
+    text-shadow: 2px 4px 6px black;
+}
+.parallax .btn{
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 0 5px black;
+    font-weight: 700;
+}
+.parallax .btn:hover{
+    scale: 1.09;
+    background-color: rgba(0, 255, 255, 0.482);
+    color: rgb(232, 236, 208);
+}
+.content2 .btn {
+    border: 2px solid beige;
+    border-radius: 20px;
+    color:beige;
+    box-shadow: 0 0 2px rgb(251, 247, 247);
+    font-weight: 700;
+}
+.content2 .btn:hover {
+    scale: 1.09;
+    background-color: rgb(205, 255, 253);
+    color: rgb(11, 11, 11);
+}
+.overlay2 .btn {
+    border: 2px solid beige;
+    border-radius: 20px;
+    color: beige;
+    box-shadow: 0 0 5px rgb(9, 9, 9);
+    font-weight: 700;
+}
+
+.overlay2 .btn:hover {
+    scale: 1.09;
+    background-color: rgb(205, 255, 253);
+    color: rgba(227, 30, 30, 0.61);
+}
+.arrivals {
+    position: relative;
+    overflow: hidden;
+    /* Ensure text doesn't overflow outside */
+}
+
+.arival-banner {
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.scrolling-text {
+    display: inline-block;
+    font-size: 24px;
+    /* Adjust the font size as needed */
+}
+#newarrivals{
+  
+    background-image: url('./images/b1.jpg');
+        height: 750px;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+}
+.door2 .card-body{
+    background-color:aquamarine ;
+    color: cadetblue;
+    font-weight: 600;
+}
+.door2 .card-body .btn{
+    border-radius: 20px;
+    background-color: rgb(95, 179, 179);
+    border: 2px solid rgb(209, 231, 227);
+}
+.door2 .card-body .btn:hover{
+    background-color: rgb(89, 156, 133);
+    scale: 1.09;
+    color: aqua;
+}
+.door2 .card-body h5{
+    color: red;
+    font-weight:600 ;
+}
+#newarrivals .card{
+    margin-top: 80px;
+    box-shadow: 2px 4px 6px  rgb(32, 32, 32);
+ 
+}
+.arival-banner{
+    color: rgb(248, 243, 209);
+    font-weight: 600;
+    text-shadow: 2px 3px 4px black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 34px;
+}
+#newarrivals .card-body{
+    background-color: beige;
+    color: rgb(245, 77, 15);
+    font-weight: 600;
+}
+#newarrivals h1{
+    color: rgb(244, 211, 151);
+    text-shadow: 2px 4px 6px black;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: 600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+        #newarrivals h5{
+            font-weight: 600;
+        }
+
+#newarrivals .card-body .btn{
+   
+    border-radius: 20px;
+    border: 2px solid white;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+    background-color: rgb(250, 209, 148);
+    
+      
+}
+#newarrivals .card-body .btn:hover{
+background-color: rgb(230, 186, 127);
+    text-shadow: 0px 0px 0px;
+        scale: 1.09;
+}
+.brands{
+    color: white;
+    background-color: black;
+    height: 400px;
+    text-align: center;
+}
+#brands .carousel-item img{
+    margin-top: 150px;
+    padding-left: 300px;
+}
+.brands h2{
+    font-weight: 700;
+    padding-top: 90px;
+    font-size: 54px;
+    
+}.carousel-control-next-icon {
+    background-color: black;}
+        .carousel-control-prev-icon{
+            background-color: black;
+        }
+
+ .cimg{
+    background-image: url(images/cimg.jpg);
+    background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 600px;
+        background-position: 500px;
+ }      
+
+  .contact h1{
+    color: white;
+        text-align: center;
+    font-weight:600 ;
+    font-size: 54px;
+    padding-top: 150px;
+  }
+  .contact p{
+    margin-top: 10px;
+    font-weight: 600;
+    color: white;
+        text-align: center;
+  }
+ .contact{
+    background-color: #000;
+    height: 600px ;
+    width: 750px;
+ }
+ #contact{
+    margin-top: 80px;
+ }
+ .form-control{
+border-radius: 20px;
+height: 10px;
+width: 500px;
+margin-left: 120px;
+
+margin-top: 80px;
+ }
+.form-floating button{
+    margin-left: 320px;
+    margin-top: 10px;
+    font-weight: 900;
+    border: 4px solid;
+}
+.contact-us .scrolling-text{
+    position: relative;
+    overflow: hidden;
+    /* Ensure text doesn't overflow outside */
+    font-size: 50px;
+    padding-top: 0px;
+}
+
+.contact-us {
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
